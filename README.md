@@ -36,39 +36,40 @@ also be able to delete items or your entire cart.</p>
 <h4 style="font-size:1.5em;">  Technologies Used : </h4>
 
 <table>
-<tbody><tr>
-	<th>Dependencies</th>
-	<th>Version</th>
-</tr>
-<tr>
-	<td>spring initialzr</td>
-	<td><a href="https://start.spring.io/" rel="nofollow">https://start.spring.io/</a></td>
-</tr>
-<tr>
-	<td>Java</td>
-	<td>17</td>
-</tr>
-<tr>
-	<td>spring-boot-starter-web</td>
-	<td>2.7.4</td>
-</tr>
-<tr>
-	<td>spring-boot-starter-data-jpa</td>
-	<td>2.7.4</td>
-</tr>
-<tr>
-	<td>lombok</td>
-	<td>1.18.24</td>
-</tr>
-<tr>
-	<td>springfox-boot-starter</td>
-	<td>3.0.0</td>
-</tr>
-<tr>
-	<td>h2</td>
-	<td>2.1.214</td>
-</tr>
-</tbody>
+	<tbody>
+		<tr>
+			<th>Dependencies</th>
+			<th>Version</th>
+		</tr>
+		<tr>
+			<td>spring initialzr</td>
+			<td><a href="https://start.spring.io/" rel="nofollow">https://start.spring.io/</a></td>
+		</tr>
+		<tr>
+			<td>Java</td>
+			<td>17</td>
+		</tr>
+		<tr>
+			<td>spring-boot-starter-web</td>
+			<td>2.7.4</td>
+		</tr>
+		<tr>
+			<td>spring-boot-starter-data-jpa</td>
+			<td>2.7.4</td>
+		</tr>
+		<tr>
+			<td>lombok</td>
+			<td>1.18.24</td>
+		</tr>
+		<tr>
+			<td>springfox-boot-starter</td>
+			<td>3.0.0</td>
+		</tr>
+		<tr>
+			<td>h2</td>
+			<td>2.1.214</td>
+		</tr>
+	</tbody>
 </table>
 
 <h2 style="font-size:1.5em;"> Social networks and contacts: : </h2>
