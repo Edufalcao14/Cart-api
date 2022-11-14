@@ -11,29 +11,13 @@ also be able to delete items or your entire cart.</p>
 <h2 style="font-size:1.5em;"> Project Status : </h2>
 <p style="font-size:1.1em;">Cart API in Development 💻</p>
 
- <legend style="font-size:1.5em; margin-top: 10px"> Fetures of the project :</legend>
+ <h2 style="font-size:1.5em; margin-top: 10px"> Fetures of the project :</h2>
 
-<div style="padding:10px; font-size:1.2em;">
-      <input type="checkbox" id="seeCart" name="See Cart" checked>
-      <label for="seeCart">See Cart</label>
-</div>
-<div style="padding:10px; font-size:1.2em;">
-      <input type="checkbox" id="closeCart" name="CloseCart" checked>
-      <label for="seeCart">Close Cart</label>
-</div>
-<div style="padding:10px; font-size:1.2em;">
-      <input type="checkbox" id="AddItemToCart" name="AddItemToCart" checked>
-      <label for="AddItemToCart">Add Item To Cart</label>
-</div>
-<div style="padding:10px; font-size:1.2em;">
-      <input type="checkbox" id="DeleteItemToCart" name="DeleteItemToCart" unchecked>
-      <label for="DeleteItemToCart">Delete Item To Cart</label>
-</div>
-<div style="padding:10px; font-size:1.2em;">
-      <input type="checkbox" id="DeleteCart" name="DeleteCart" unchecked>
-      <label for="DeleteItemToCart">Delete Cart</label>
-</div>
-<h4 style="font-size:1.5em;">  Technologies Used : </h4>
+- [x] See Cart
+- [x] Add Item to Cart
+- [x] Close Cart
+- [ ] Delete Item from Cart
+- [ ] Delete Cart
 
 <table>
 	<tbody>
@@ -78,6 +62,5 @@ also be able to delete items or your entire cart.</p>
 <h3> LinkedIn : <h3>
 	<p> <a href="https://www.linkedin.com/in/eduardo-henrique-sampaio-falcao-52024b23b/">Eduardo Henrique Sampaio Falcao </a> </p>
 	
-
 
 
