@@ -15,10 +15,11 @@ also be able to delete items or your entire cart.</p>
 
 - [x] See Cart
 - [x] Add Item to Cart
-- [x] Close Cart
+- [x] Change number of items in shopping cart
 - [x] Delete Item from Cart
+- [x] Close Cart
 - [x] Delete Cart
-- [x] Change quantity of items 
+
 
 <table>
 	<tbody>
