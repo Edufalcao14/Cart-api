@@ -9,7 +9,7 @@ to add 1 or several items to the cart, see your cart, close your cart for paymen
 also be able to delete items or your entire cart.</p>
 
 <h2 style="font-size:1.5em;"> Project Status : </h2>
-<p style="font-size:1.1em;">Cart API in Development 💻</p>
+<p style="font-size:1.1em;">First version of Cart API completed  💻</p>
 
  <h2 style="font-size:1.5em; margin-top: 10px"> Fetures of the project :</h2>
 
