@@ -17,7 +17,7 @@ also be able to delete items or your entire cart.</p>
 - [x] Add Item to Cart
 - [x] Close Cart
 - [ ] Delete Item from Cart
-- [ ] Delete Cart
+- [x] Delete Cart
 
 <table>
 	<tbody>
