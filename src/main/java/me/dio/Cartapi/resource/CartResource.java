@@ -32,7 +32,12 @@ public class CartResource {
     }
     @DeleteMapping ("/deleteCart/{cartId}")
     @ResponseBody
-   public Cart deleteCart (@PathVariable("cartId") Long cartId){
+   public Cart deleteCart (@PathVariable("cartId") Long cartId ){
         return cartService.deleteCart(cartId);
    }
+
+    @DeleteMapping ("/deleteItem/{itemId}")
+    public Item deleteItem (@PathVariable("itemId") Long itemId){
+        return cartService.deleteItem(itemId);
+    }
 }

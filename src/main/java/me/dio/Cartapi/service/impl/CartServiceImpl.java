@@ -106,4 +106,32 @@ public class CartServiceImpl implements CartService {
         cartRepository.delete(cart);
         return cartDeleted;
     }
+
+    @Override
+    public Item deleteItem(long itemId) {
+      Item itemToDelete = itemRepository.findById(itemId).orElseThrow(
+              () -> {
+                  throw new RuntimeException("This product does not exist");
+              }
+      );
+      Cart cart = itemToDelete.getCart();
+
+     if (cart.isClosed()){
+         throw new RuntimeException("You cannot delete a Item in a closed cart");
+     }
+
+     List<Item> itemsFromCart = cart.getItems();
+
+
+     itemsFromCart.remove(itemToDelete);
+
+        double totalPriceItemToDelete = itemToDelete.getProduct().getUnitPrice() * itemToDelete.getQuantity();
+        double totalPriceCarBeforeDelete = cart.getTotalAmount();
+
+        double currentTotalPrice = totalPriceCarBeforeDelete - totalPriceItemToDelete;
+        cart.setTotalAmount(currentTotalPrice);
+        cartRepository.save(cart);
+    return itemToDelete;
+    }
+
 }

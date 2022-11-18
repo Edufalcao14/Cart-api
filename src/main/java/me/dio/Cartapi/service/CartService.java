@@ -9,6 +9,7 @@ public interface CartService {
     Cart closeCart (Long id, int paymentMethod);
     Item addToCart (ItemDto itemDto);
     Cart deleteCart (Long cartId);
+    Item deleteItem (long itemId );
 
 
 }
