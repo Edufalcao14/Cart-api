@@ -40,4 +40,9 @@ public class CartResource {
     public Item deleteItem (@PathVariable("itemId") Long itemId){
         return cartService.deleteItem(itemId);
     }
+
+    @PatchMapping("/setQuantity/{itemId}")
+    public Item setQuantity (@PathVariable("itemId") Long itemId , @RequestParam("quantity") int quantity){
+        return cartService.setQuantity(itemId, quantity);
+    }
 }

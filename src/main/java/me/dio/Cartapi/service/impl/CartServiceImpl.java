@@ -108,10 +108,10 @@ public class CartServiceImpl implements CartService {
     }
 
     @Override
-    public Item deleteItem(long itemId) {
+    public Item deleteItem(Long itemId) {
       Item itemToDelete = itemRepository.findById(itemId).orElseThrow(
               () -> {
-                  throw new RuntimeException("This product does not exist");
+                  throw new RuntimeException("This item does not exist");
               }
       );
       Cart cart = itemToDelete.getCart();
@@ -131,7 +131,26 @@ public class CartServiceImpl implements CartService {
         double currentTotalPrice = totalPriceCarBeforeDelete - totalPriceItemToDelete;
         cart.setTotalAmount(currentTotalPrice);
         cartRepository.save(cart);
+        itemRepository.deleteById(itemToDelete.getId());
     return itemToDelete;
+    }
+
+    @Override
+    public Item setQuantity(Long itemId , int quantity) {
+       Item item = itemRepository.findById(itemId).orElseThrow(
+                () -> {
+                    throw new RuntimeException("You cannot change the quantity of a product that does not exist");
+                }
+        );
+       Cart cart = item.getCart();
+       if (cart.isClosed()){
+           throw new RuntimeException("You cannot change the quantity of a product that the cart is closed");
+       }
+
+        item.setQuantity(quantity);
+       itemRepository.save(item);
+
+        return item;
     }
 
 }
