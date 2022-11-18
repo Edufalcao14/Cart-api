@@ -12,4 +12,6 @@ INSERT INTO product (id,available,product_name,unit_price,restaurant_id) VALUES
 (4L,true,'product4',18.0,2L);
 
 INSERT INTO cart (id,client_id,payment_method,total_amount,closed) VALUES
-(1L,1L,1,0.0,false);
+(1L,1L,1,0.0,false),
+(2L,1L,1,0.0,false),
+(3L,1L,1,0.0,false);

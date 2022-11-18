@@ -93,4 +93,17 @@ public class CartServiceImpl implements CartService {
         cartRepository.save(cart);
         return itemToAdd;
     }
+
+    @Override
+    public Cart deleteCart(Long cartId) {
+        Cart cart = seeCart(cartId);
+        if (cart.isClosed()) {
+            throw new RuntimeException("You cannot delete a closed cart");
+        }
+
+
+        Cart cartDeleted = cart;
+        cartRepository.delete(cart);
+        return cartDeleted;
+    }
 }

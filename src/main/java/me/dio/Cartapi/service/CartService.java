@@ -8,4 +8,7 @@ public interface CartService {
     Cart seeCart (Long id);
     Cart closeCart (Long id, int paymentMethod);
     Item addToCart (ItemDto itemDto);
+    Cart deleteCart (Long cartId);
+
+
 }

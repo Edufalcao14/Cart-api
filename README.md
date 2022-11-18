@@ -57,9 +57,9 @@ also be able to delete items or your entire cart.</p>
 </table>
 
 <h2 style="font-size:1.5em;"> Social networks and contacts: : </h2>
-<h3> Email : <h3>
+<h3> Email : </h3>
 	<p> edusampaiofalcao@gmail.com  </p>
-<h3> LinkedIn : <h3>
+<h3> LinkedIn : </h3>
 	<p> <a href="https://www.linkedin.com/in/eduardo-henrique-sampaio-falcao-52024b23b/">Eduardo Henrique Sampaio Falcao </a> </p>
 	
 

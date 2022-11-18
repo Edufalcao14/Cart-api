@@ -30,5 +30,9 @@ public class CartResource {
     public Cart closeCart(@PathVariable("idCart") Long idCart , @RequestParam("paymentMethod") int methodPayment){
         return cartService.closeCart(idCart, methodPayment);
     }
-
+    @DeleteMapping ("/deleteCart/{cartId}")
+    @ResponseBody
+   public Cart deleteCart (@PathVariable("cartId") Long cartId){
+        return cartService.deleteCart(cartId);
+   }
 }
