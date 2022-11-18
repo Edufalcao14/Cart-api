@@ -3,7 +3,7 @@
 <h2 style="font-size:1.5em;"> Description: </h2>
 <p style="font-size:1em;">I'm developing this API for study purposes, I want to develop 
 a complete shopping cart API based on delivery apps, ex: Uber Eats, Deliveroo and etc 
-using SpringBoot Framework. My objective with this API is to build an application that is 
+using SpringBoot Framework. My objective with this API is to build an shopping Cart that is 
 dynamic and that meets all the needs of a delivery application, having the possibility 
 to add 1 or several items to the cart, see your cart, close your cart for payment and 
 also be able to delete items or your entire cart.</p>
@@ -17,7 +17,7 @@ also be able to delete items or your entire cart.</p>
 - [x] Add Item to Cart
 - [x] Close Cart
 - [ ] Delete Item from Cart
-- [ ] Delete Cart
+- [x] Delete Cart
 
 <table>
 	<tbody>
