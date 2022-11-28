@@ -5,7 +5,7 @@
 a complete shopping cart API based on delivery apps, ex: Uber Eats, Deliveroo and etc 
 using SpringBoot Framework. My objective with this API is to build an shopping Cart that is 
 dynamic and that meets all the needs of a delivery application, having the possibility 
-to add 1 or several items to the cart, see your cart, close your cart for payment and 
+to add one or several items to the cart, see your cart, close your cart for payment and 
 also be able to delete items or your entire cart.</p>
 
 <h2 style="font-size:1.5em;"> Project Status : </h2>
