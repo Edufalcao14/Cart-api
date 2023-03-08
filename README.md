@@ -58,11 +58,9 @@ also be able to delete items or your entire cart.</p>
 	</tbody>
 </table>
 
-<h2 style="font-size:1.5em;"> Social networks and contacts: : </h2>
-<h3> Email : </h3>
-	<p> edusampaiofalcao@gmail.com  </p>
-<h3> LinkedIn : </h3>
-	<p> <a href="https://www.linkedin.com/in/eduardo-henrique-sampaio-falcao-52024b23b/">Eduardo Henrique Sampaio Falcao </a> </p>
-	
+### If you have ideas on how to improve the project or fix any bugs and errors , please contact me via my LinkedIn or Email
 
+##### My social Medias :
 
+[![Linked In](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/edusampaiofalcao/)
+[![Linked In](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJvlHtkcnfxKRDDrzHRgJQKWqRVwfgXZRMSQprcjfnrKbCMvPcgkgGTvmtcHCGPqWxzRTdB)
