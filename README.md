@@ -11,7 +11,7 @@ also be able to delete items or your entire cart.</p>
 <h2 style="font-size:1.5em;"> Project Status : </h2>
 <p style="font-size:1.1em;">First version of Cart API completed  💻</p>
 
- <h2 style="font-size:1.5em; margin-top: 10px"> Fetures of the project :</h2>
+ <h2 style="font-size:1.5em; margin-top: 10px"> Fetures of the project :</h2>  
 
 - [x] See Cart
 - [x] Add Item to Cart
